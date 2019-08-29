@@ -3,7 +3,6 @@ from __future__ import unicode_literals
 
 import os
 from itertools import islice
-from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.contrib.auth.decorators import (login_required, user_passes_test)
 from django.contrib.admin.utils import (quote, unquote)
